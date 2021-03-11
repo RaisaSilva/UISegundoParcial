@@ -2,7 +2,7 @@ package controls;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import singletonSess.Session;
+import sessionSingleton.Session;
 
 public class Control {
     protected By locator;

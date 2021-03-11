@@ -7,7 +7,7 @@ import pomPages.todoLy.LoginModal;
 import pomPages.todoLy.MainPage;
 import pomPages.todoLy.MenuSection;
 
-public class CambiaFullName{
+public class CambiaFullName extends BaseTodoly{
 
     MainPage mainPage= new MainPage();
     LoginModal loginModal= new LoginModal();

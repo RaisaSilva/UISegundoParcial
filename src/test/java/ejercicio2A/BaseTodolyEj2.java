@@ -1,12 +1,13 @@
-package ejercicioi2A;
+package ejercicio2A;
 
 import org.junit.After;
 import org.junit.Before;
+import sessionSingleton.Session;
 
 
 import java.io.IOException;
 
-public class BaseTodoly {
+public class BaseTodolyEj2 {
 
     @Before
     public void open(){

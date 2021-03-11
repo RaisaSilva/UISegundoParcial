@@ -3,19 +3,20 @@ package singletonSession;
 import factoryBrowser.FactoryBrowser;
 import org.openqa.selenium.WebDriver;
 
-public class Session {
-    private static Session session=null;
+public class Session1 {
+
+    private static Session1 session=null;
     private WebDriver driver;
 
-    private Session(){
+    private Session1(){
 
         //this.driver= FactoryBrowser.make("firefox").create();
         this.driver= FactoryBrowser.make("chrome").create();
     }
 
-    public static Session getSession(){
+    public static Session1 getSession(){
         if (session==null)
-            session= new Session();
+            session= new Session1();
         return session;
     }
 
@@ -28,4 +29,6 @@ public class Session {
         driver.quit();
         session=null;
     }
+
+
 }

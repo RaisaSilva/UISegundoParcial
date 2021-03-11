@@ -1,4 +1,4 @@
-package ejercicioi2A;
+package ejercicio2A;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import pomPages.todoLy.LoginModal;
 import pomPages.todoLy.MainPage;
 import pomPages.todoLy.MenuSection;
 
-public class LoginFree extends BaseTodoly {
+public class LoginFree extends BaseTodolyEj2{
     MainPage mainPage = new MainPage();
     LoginModal loginModal = new LoginModal();
     MenuSection menuSection = new MenuSection();

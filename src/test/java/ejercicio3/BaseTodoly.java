@@ -2,7 +2,7 @@ package ejercicio3;
 
 import org.junit.After;
 import org.junit.Before;
-import singletonSession.Session;
+import sessionSingleton.Session;
 
 import java.io.IOException;
 
