@@ -2,7 +2,7 @@ package pass;
 
 import org.junit.After;
 import org.junit.Before;
-import singletonSession1.Session;
+import singletonSession.Session;
 
 import java.io.IOException;
 
