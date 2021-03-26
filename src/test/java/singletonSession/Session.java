@@ -1,9 +1,9 @@
 package singletonSession;
 
-import factoryBrowser.FactoryBrowser;
 import org.openqa.selenium.WebDriver;
-
+import factoryBrowser.FactoryBrowser;
 public class Session {
+
     private static Session session=null;
     private WebDriver driver;
 
@@ -28,4 +28,6 @@ public class Session {
         driver.quit();
         session=null;
     }
+
+
 }

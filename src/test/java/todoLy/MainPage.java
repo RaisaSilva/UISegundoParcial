@@ -1,9 +1,5 @@
 package todoLy;
 
-import controls.Button;
-import controls.CheckBox;
-import controls.Image;
-import controls.TextBox;
 import org.openqa.selenium.By;
 
 public class MainPage {

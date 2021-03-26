@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 public class MainPage {
 
     public Image loginImage= new Image(By.xpath("//img[@src='/Images/design/pagelogin.png']"));
-
+//todoist ejercicio en clase 2
     public Image start = new Image(By.xpath("//div[@class='_3BBq0']//a"));
 
     public Image singUpFree = new Image(By.xpath("//div[@class='HPHeaderSignup']//a"));

@@ -1,8 +1,5 @@
 package todoLy;
 
-import controls.Button;
-import controls.Label;
-import controls.TextBox;
 import org.openqa.selenium.By;
 
 public class Center {

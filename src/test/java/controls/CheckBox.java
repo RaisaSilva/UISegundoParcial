@@ -6,7 +6,6 @@ public class CheckBox extends Control{
     public CheckBox(By locator) {
         super(locator);
     }
-
     public void check(){
 
     }

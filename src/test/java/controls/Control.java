@@ -2,7 +2,7 @@ package controls;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import sessionSingleton.Session;
+import singletonSession1.Session;
 
 public class Control {
     protected By locator;
@@ -22,10 +22,15 @@ public class Control {
         this.control.click();
     }
 
-    public void set(String value){
+    public void clear(){
+        this.findControl();
+        this.control.clear();
+    }
+
+    /*public void set(String value){
         this.findControl();
         this.control.sendKeys(value);
-    }
+    }*/
 
     public void dobleClick(){
         this.findControl();
@@ -41,7 +46,6 @@ public class Control {
             return false;
         }
     }
-
     public String getText(){
         this.findControl();
         return this.control.getText();
@@ -52,8 +56,12 @@ public class Control {
         return this.control.getAttribute(attribute);
     }
 
-    public void clear(){
+    public void set(String value){
         this.findControl();
         this.control.clear();
+        this.control.sendKeys(value);
     }
 }
+
+
+

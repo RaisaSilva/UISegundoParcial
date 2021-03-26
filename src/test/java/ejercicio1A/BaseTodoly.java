@@ -2,7 +2,7 @@ package ejercicio1A;
 
 import org.junit.After;
 import org.junit.Before;
-import sessionSingleton.Session;
+import sessionSingleton1.Session;
 import java.io.IOException;
 
 public class BaseTodoly {

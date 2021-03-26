@@ -1,7 +1,5 @@
 package todoLy;
 
-import controls.Button;
-import controls.TextBox;
 import org.openqa.selenium.By;
 
 public class Left {

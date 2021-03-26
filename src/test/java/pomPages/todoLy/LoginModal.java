@@ -1,7 +1,7 @@
 package pomPages.todoLy;
 
-import controls.Button;
-import controls.TextBox;
+import controles.Button;
+import controles.TextBox;
 import org.openqa.selenium.By;
 
 public class LoginModal {
